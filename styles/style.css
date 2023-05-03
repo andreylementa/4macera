@@ -1,0 +1,199 @@
+@import url(./reset.css);
+@import url(./fonts.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: url(../assets/img/bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+html::before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.header .container {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 12.24px;
+}
+
+.header {
+  height: 43px;
+  margin-top: 99px;
+  width: 100%;
+  margin-bottom: 178px;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 1240px;
+  /* padding: 0 15px; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: auto;
+}
+.logo-img {
+}
+.nav {
+  display: flex;
+  gap: 50px;
+}
+.nav__link {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+
+.nav__link:last-child {
+  margin-right: 50px;
+}
+.search {
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 182px;
+}
+.hero .container {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 67px;
+  max-width: 528px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.hero-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  max-width: 527px;
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+.hero-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  padding: 10px 33px;
+  background-color: #e30a17;
+  box-shadow: 0px 2px 4px #831219;
+  color: #ffffff;
+}
+
+.footer {
+  padding-bottom: 70px;
+}
+.container {
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.social-icon-image {
+}
+
+.region-card {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  max-width: 299px;
+  background: linear-gradient(
+    90.44deg,
+    rgba(255, 255, 255, 0.5) -3.55%,
+    rgba(255, 255, 255, 0) 120.14%
+  );
+
+  backdrop-filter: blur(11.7037px);
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 21px 35px;
+}
+.card_title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18.7259px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+.card-desc {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+.card-link {
+  background: #e30a17;
+  height: 60px;
+  gap: 15px;
+  display: flex;
+
+  align-items: center;
+  color: #ffffff;
+  justify-content: flex-end;
+}
+
+.link-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.0444px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.icon-arrow {
+  margin-right: 36px;
+  transform: translateY(1px);
+}
